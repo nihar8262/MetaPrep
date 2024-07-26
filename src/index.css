@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/RoxboroughCF.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: local('PPNeueMontreal'), url(./fonts/PPNeueMontreal-Medium.otf) format('opentype');
+}
+
+:root{
+  background-color: #000000;
+}
+
+
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #727272; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #727272; /* Color of the scrollbar handle on hover */
+}
