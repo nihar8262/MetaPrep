@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import About from "./Components/About/About";
+import About from "./Components/About";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Work from "./Components/Work";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
-import Error from "./Components/Others/Error";
-import ScrollToTop from "./Components/Others/ScrollToTop";
+import Error from "./Components/Error";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 const router = createBrowserRouter([

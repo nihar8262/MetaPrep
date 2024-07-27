@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between max-w-[1300px] mx-auto py-3 px-3 font-medium">
+      <div className="flex justify-between max-w-[1200px] mx-auto py-3 px-3 font-medium">
         <div className="font-bold">ProjectX</div>
         <div className="flex gap-x-10">
           <Link>OA Practice</Link>
