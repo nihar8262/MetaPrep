@@ -31,7 +31,7 @@ const Hero = () => {
             <li className="flex items-center gap-2">
               <FaCheckCircle color="0096C7" />
               <p className="text-sm">
-                Generate 1000+ Question with the help of AI
+                1000+ Question on each topic
               </p>
             </li>
             <li className="flex items-center gap-2">
