@@ -1,13 +1,13 @@
 import React from "react";
-import { topics } from "../../../data/constant";
+import { topics } from "../../data/constant";
 import { Link } from "react-router-dom";
 
-export const Domains = () => {
+const Domains = () => {
   return (
-    <div className="w-[90vw] mx-auto rounded-lg border text-white border-neutral-500 bg-black -mt-10">
+    <div className="w-[90vw] mx-auto rounded-lg border text-white border-neutral-500 bg-blue-700 -mt-10">
       <div className="flex flex-col items-center">
         <h1 className="pt-10 text-5xl  font-bold ">What we offer</h1>
-        <div className="bg-gradient-to-r from-black via-white to-black h-[1px] w-[75vw] mt-[2vh] "></div>
+        {/* <div className="bg-gradient-to-r from-black via-white to-black h-[1px] w-[75vw] mt-[2vh] "></div> */}
 
         {topics.map((item) => (
           <div className="flex gap-20 pt-10 pb-10">
@@ -50,3 +50,5 @@ export const Domains = () => {
     </div>
   );
 };
+
+export default Domains;

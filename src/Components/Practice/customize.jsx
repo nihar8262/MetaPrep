@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Abouth = () => {
+const customize = () => {
   return (
     <>
+    
     </>
   )
 }
 
-export default Abouth
+export default customize
