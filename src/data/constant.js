@@ -8,6 +8,12 @@ export const topics = [
       { topic: "Non Verbal Reasoning" },
       { topic: "Verbal Ability" },
     ],
+    Aptitude:[
+      { topic: "Quantitative Aptitude" },
+      { topic: "Logical Reasoning" },
+      { topic: "Non Verbal Reasoning" },
+      { topic: "Verbal Ability" },
+    ],
     main_topics:[
         {
             topic: "C Programming",

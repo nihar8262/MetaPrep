@@ -4,18 +4,18 @@ import { FaCheckCircle } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="w-[80vw] mx-auto  border border-neutral-500 ">
+      <div className="w-[80vw] mx-auto  border-l border-r border-neutral-500 ">
         <div className="flex flex-col items-center">
-          <h1 className="text-5xl pt-20 pb-5">SuperCharge your Career with</h1>
-          <h1 className="text-5xl text-[#0077B6] pb-10">
+          <h1 className="text-5xl pt-20 pb-5 font-semibold">SuperCharge your Career with</h1>
+          <h1 className="text-5xl text-[#0077B6] font-semibold pb-10">
             Long Term Mentorship
           </h1>
           <p>
             Land your dream job, role, and company faster than ever with 1:1
             long term mentorship.
           </p>
-          <div className="flex gap-20 pt-10 pb-10">
-            <button className="border border-black/30 p-3 rounded-lg text-neutral-500 hover:scale-[1.2] transition-all duration-700">
+          <div className="flex gap-20 pt-20 pb-20">
+            <button className="border border-black/30 p-3 rounded-lg text-neutral-500 hover:scale-[1.2] ease-in-out transition-all duration-700">
               Book a free trial
             </button>
             <button className="button">Start Practicing </button>

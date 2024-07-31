@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
 import Error from "./Components/Others/Error";
 import ScrollToTop from "./Components/Others/ScrollToTop";
+import { Main } from "./Components/Screen/OA_Practice/Main";
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "OA_Practice",
+        element: <Main/>,
       },
       {
         path: "*",
