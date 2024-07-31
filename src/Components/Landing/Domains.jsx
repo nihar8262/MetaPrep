@@ -1,8 +1,8 @@
 import React from "react";
-import { topics } from "../../../data/constant";
+import { topics } from "../../data/constant";
 import { Link } from "react-router-dom";
 
-export const Domains = () => {
+const Domains = () => {
   return (
     <div className="w-[90vw] mx-auto rounded-lg border text-white border-neutral-500 bg-black -mt-10">
       <div className="flex flex-col items-center">
@@ -50,3 +50,5 @@ export const Domains = () => {
     </div>
   );
 };
+
+export default Domains;

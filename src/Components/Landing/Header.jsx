@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
-import image from '../assets/images/logo.png'
 
 const Header = () => {
 

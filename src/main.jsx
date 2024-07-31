@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Contact from "./Components/Contact";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
 import Error from "./Components/Error";
 import ScrollToTop from "./Components/ScrollToTop";
+import Home from "./Components/Landing/Home";
 
 
 const router = createBrowserRouter([
@@ -20,11 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Home />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
+        element: <Home/>,
       },
       {
         path: "*",

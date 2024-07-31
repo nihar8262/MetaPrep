@@ -1,13 +1,13 @@
 import React from 'react'
 import Hero from './Hero'
-import { Domains } from '../Screen/Landing Screen/Domains'
+import Domains from './Domains'
 
 const Home = () => {
   return (
     <>
       <Hero/>
       <Domains/>
-      
+
       </>
   )
 }
