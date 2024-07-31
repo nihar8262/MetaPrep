@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="text-white bg-black">
       <div className="max-w-[1000px] mx-auto flex flex-col gap-y-10 pb-8">
-        <div className="text-[155px] text-center font-semibold">PROJECT X</div>
-        <div className="flex font-medium mx-auto gap-x-14">
+        <div className="text-[180px] text-center font-bold">PROJECT X</div>
+        <div className="flex font-medium mx-auto gap-x-20">
           <Link>Product</Link>
           <Link>Privacy</Link>
           <Link>Premium</Link>

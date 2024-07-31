@@ -10,6 +10,9 @@ import Layout from "./Layout";
 import Error from "./Components/Error";
 import ScrollToTop from "./Components/ScrollToTop";
 import Prompt from "./Components/Prompt"
+import Home from "./Components/Landing/Home";
+import OA from "./Components/Practice/customize";
+
 
 
 const router = createBrowserRouter([
@@ -23,9 +26,7 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: "/h",
-        element: <Home />,
-      },
+
       {
         path: "/",
         element: <Prompt />,
@@ -41,6 +42,12 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+        path: "",
+        element: <Home/>,
+      },
+      {
+        path: "oa",
+        element: <OA/>,
       },
       {
         path: "*",
